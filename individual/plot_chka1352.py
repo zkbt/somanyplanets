@@ -1,3 +1,4 @@
+
 # basic imports
 import matplotlib.pyplot as plt
 import numpy as np
@@ -6,7 +7,7 @@ import numpy as np
 from basics import data
 
 # MODIFY this to be your name!
-myname = "Taydra Low"
+myname = "Christopher Kazim"
 
 # create a function definition
 def makeplot():
@@ -18,9 +19,9 @@ def makeplot():
 
     # you may want to MODIFY this to make it prettier
     # plot the data points
-    plt.scatter(x, y, alpha=0.5,
+    plt.scatter(x, y, alpha=0.6,
                       marker='o',
-                      color='mediumorchid',
+                      color='skyblue',
                       edgecolor='none')
 
     # you may need to MODIFY these limits to zoom in or out
@@ -34,6 +35,6 @@ def makeplot():
     plt.yscale('log') # 'log' or 'linear' are possible x scales
 
     # add title and labels
-    plt.title("Radius vs Mass!")
-    plt.xlabel('Radius (Earth Mass)')
-    plt.ylabel('Mass (Earth Mass)')
+    plt.title("Some planets are dense!")
+    plt.xlabel('Planet Radius (Earth radii)')
+    plt.ylabel('Planet Mass (Earth masses)')
